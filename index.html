@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza Akhtar | PHP / Laravel Developer</title>
+  <meta name="description" content="Muhammad Hamza Akhtar - PHP / Laravel Developer based in Karachi, Pakistan. 3+ years building scalable web apps, REST APIs and full-stack solutions." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="assets/favicon.ico" />
+  <meta name="theme-color" content="#FFA41B" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__logo"><span class="logo__icon"><i class="fa-solid fa-code"></i></span><span>Hamza<em>.</em></span></div>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo"><span class="logo__icon"><i class="fa-solid fa-code"></i></span>Hamza<em>.</em></a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav__link active">Home</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contact" class="btn btn--dark btn--sm">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero__bg-text" aria-hidden="true">LARAVEL</div>
+    <div class="container">
+      <div class="hero__top reveal">
+        <span class="badge badge--pill"><i class="fa-solid fa-award"></i> PHP / Laravel Developer &nbsp;•&nbsp; 3+ Years Experience</span>
+        <h1 class="hero__title">I'm <span class="highlight">Hamza Akhtar</span><span class="hero__star"><i class="fa-solid fa-star-of-life"></i></span></h1>
+        <p class="hero__subtitle"><span id="typed"></span><span class="typed-cursor">|</span> based in <strong>Karachi, Pakistan</strong></p>
+      </div>
+
+      <div class="hero__grid">
+        <!-- Left -->
+        <div class="hero__side hero__side--left reveal-left">
+          <p class="hero__side-label">Follow Me On</p>
+          <div class="socials">
+            <a href="https://linkedin.com/in/hamza-baig-896561248" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:hamzabaig620@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:03122969784" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+
+          <div class="hero__rating">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p><strong>10+ Live Projects</strong> delivered<br />for clients across the US &amp; Pakistan</p>
+          </div>
+        </div>
+
+        <!-- Center image -->
+        <div class="hero__center reveal-up">
+          <div class="hero__circle"></div>
+          <div class="hero__photo">
+            <img src="assets/hamza.jpeg" alt="Muhammad Hamza Akhtar" id="heroImg" />
+            <div class="hero__avatar" id="heroAvatar">
+              <span>HA</span>
+              <small>Add your photo at<br/>assets/hamza.jpeg</small>
+            </div>
+          </div>
+
+          <div class="stamp" id="stamp">
+            <svg viewBox="0 0 100 100"><defs><path id="circlePath" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0"/></defs><text><textPath href="#circlePath">• LARAVEL DEVELOPER • FULL-STACK • OPEN TO WORK </textPath></text></svg>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+
+          <span class="float-tag float-tag--1"><i class="fa-brands fa-laravel"></i> Laravel</span>
+          <span class="float-tag float-tag--2"><i class="fa-brands fa-php"></i> PHP</span>
+          <span class="float-tag float-tag--3"><i class="fa-brands fa-react"></i> React.js</span>
+          <span class="float-tag float-tag--4"><i class="fa-solid fa-database"></i> MySQL</span>
+          <span class="float-tag float-tag--5"><i class="fa-brands fa-node-js"></i> NestJS</span>
+        </div>
+
+        <!-- Right -->
+        <div class="hero__side hero__side--right reveal-right">
+          <p class="hero__desc">Building scalable web applications, RESTful APIs and full-stack solutions with <strong>Laravel, NestJS &amp; React</strong> — clean architecture, maintainable code.</p>
+          <div class="hero__skills">
+            <span class="chip">Laravel</span><span class="chip chip--dark">RESTful APIs</span><span class="chip">MySQL</span><span class="chip chip--dark">MongoDB</span><span class="chip">React.js</span><span class="chip chip--dark">NestJS</span>
+          </div>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn--outline">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Laravel Development</span><i class="fa-solid fa-star-of-life"></i>
+      <span>RESTful APIs</span><i class="fa-solid fa-star-of-life"></i>
+      <span>React.js</span><i class="fa-solid fa-star-of-life"></i>
+      <span>NestJS</span><i class="fa-solid fa-star-of-life"></i>
+      <span>MySQL &amp; MongoDB</span><i class="fa-solid fa-star-of-life"></i>
+      <span>E-commerce Platforms</span><i class="fa-solid fa-star-of-life"></i>
+      <span>Booking Systems</span><i class="fa-solid fa-star-of-life"></i>
+      <span>Healthcare Portals</span><i class="fa-solid fa-star-of-life"></i>
+      <span>Laravel Development</span><i class="fa-solid fa-star-of-life"></i>
+      <span>RESTful APIs</span><i class="fa-solid fa-star-of-life"></i>
+      <span>React.js</span><i class="fa-solid fa-star-of-life"></i>
+      <span>NestJS</span><i class="fa-solid fa-star-of-life"></i>
+      <span>MySQL &amp; MongoDB</span><i class="fa-solid fa-star-of-life"></i>
+      <span>E-commerce Platforms</span><i class="fa-solid fa-star-of-life"></i>
+      <span>Booking Systems</span><i class="fa-solid fa-star-of-life"></i>
+      <span>Healthcare Portals</span><i class="fa-solid fa-star-of-life"></i>
+    </div>
+  </div>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__tag"><i class="fa-solid fa-circle"></i> My Services</span>
+        <h2 class="section__title">How I Bring <span class="highlight">Ideas to Life</span><i class="fa-solid fa-star-of-life spin"></i></h2>
+      </div>
+
+      <div class="accordion" id="accordion">
+        <div class="acc-item reveal">
+          <button class="acc-item__head"><span class="acc-item__num">01</span><span class="acc-item__title">Laravel Web Development</span><span class="acc-item__icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div class="acc-item__body"><div class="acc-item__inner">
+            <div class="acc-item__tags"><span>MVC Architecture</span><span>Eloquent ORM</span><span>Blade Templates</span><span>Authentication</span><span>Design Patterns</span></div>
+            <p>Developing and maintaining scalable PHP/Laravel applications with clean MVC architecture and established software design patterns for long-term maintainability.</p>
+          </div></div>
+        </div>
+
+        <div class="acc-item reveal active">
+          <button class="acc-item__head"><span class="acc-item__num">02</span><span class="acc-item__title">RESTful API Development</span><span class="acc-item__icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div class="acc-item__body"><div class="acc-item__inner">
+            <div class="acc-item__tags"><span>API Design</span><span>Third-party Integration</span><span>Postman Testing</span><span>JSON</span><span>Secure Endpoints</span></div>
+            <p>Building and integrating RESTful APIs that connect backend services with front-end applications, ensuring reliable data flow across multiple modules.</p>
+          </div></div>
+        </div>
+
+        <div class="acc-item reveal">
+          <button class="acc-item__head"><span class="acc-item__num">03</span><span class="acc-item__title">Full-Stack (NestJS + React)</span><span class="acc-item__icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div class="acc-item__body"><div class="acc-item__inner">
+            <div class="acc-item__tags"><span>NestJS</span><span>React.js</span><span>jQuery</span><span>HTML/CSS</span><span>Interactive UI</span></div>
+            <p>Server-side services in NestJS paired with dynamic, interactive React user interfaces — contributing to production apps like lightofthewords.com.</p>
+          </div></div>
+        </div>
+
+        <div class="acc-item reveal">
+          <button class="acc-item__head"><span class="acc-item__num">04</span><span class="acc-item__title">Database Design &amp; Optimization</span><span class="acc-item__icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div class="acc-item__body"><div class="acc-item__inner">
+            <div class="acc-item__tags"><span>MySQL</span><span>MongoDB</span><span>Schema Design</span><span>Query Optimization</span><span>Indexing</span></div>
+            <p>Designing and managing MySQL and MongoDB schemas, optimizing query performance and indexing strategy to maintain data integrity in production.</p>
+          </div></div>
+        </div>
+
+        <div class="acc-item reveal">
+          <button class="acc-item__head"><span class="acc-item__num">05</span><span class="acc-item__title">E-commerce &amp; Booking Platforms</span><span class="acc-item__icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div class="acc-item__body"><div class="acc-item__inner">
+            <div class="acc-item__tags"><span>Multi-vendor</span><span>Checkout</span><span>Appointment Booking</span><span>Vendor Onboarding</span><span>Portals</span></div>
+            <p>End-to-end platforms — multi-vendor stores, ride &amp; service booking systems and healthcare portals — translating business requirements into shipped features.</p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section about" id="about">
+    <div class="container about__grid">
+      <div class="about__media reveal-left">
+        <div class="about__frame">
+          <img src="assets/hamza.jpeg" alt="Hamza Akhtar" id="aboutImg" />
+          <div class="about__avatar" id="aboutAvatar"><span>HA</span></div>
+          <span class="about__badge"><i class="fa-brands fa-laravel"></i></span>
+          <span class="about__badge about__badge--2"><i class="fa-brands fa-react"></i></span>
+        </div>
+        <div class="about__exp">
+          <strong data-count="3">0</strong><span>+ Years<br/>Experience</span>
+        </div>
+      </div>
+
+      <div class="about__content reveal-right">
+        <span class="section__tag section__tag--light"><i class="fa-solid fa-circle"></i> About Me</span>
+        <h2 class="section__title">Who is <span class="highlight">Hamza Akhtar?</span></h2>
+        <p>Hey there, I'm Hamza — a <strong>PHP/Laravel Developer</strong> with hands-on experience building and maintaining scalable web applications, RESTful APIs and full-stack solutions using Laravel, NestJS and React.</p>
+        <p>Skilled in MySQL and MongoDB database design, API integration and cross-functional collaboration — translating business requirements into clean, maintainable technical solutions across 3 years of production Laravel work.</p>
+
+        <div class="stats">
+          <div class="stat"><strong><span data-count="3">0</span>+</strong><span>Years Experience</span></div>
+          <div class="stat"><strong><span data-count="10">0</span>+</strong><span>Live Projects</span></div>
+          <div class="stat"><strong><span data-count="12">0</span>+</strong><span>Technologies</span></div>
+          <div class="stat"><strong><span data-count="2">0</span></strong><span>Companies</span></div>
+        </div>
+
+        <div class="about__info">
+          <div><i class="fa-solid fa-location-dot"></i><span>Karachi, Pakistan</span></div>
+          <div><i class="fa-solid fa-envelope"></i><a href="mailto:hamzabaig620@gmail.com">hamzabaig620@gmail.com</a></div>
+          <div><i class="fa-solid fa-phone"></i><a href="tel:03122969784">0312-2969784</a></div>
+          <div><i class="fa-brands fa-linkedin"></i><a href="https://linkedin.com/in/hamza-baig-896561248" target="_blank" rel="noopener">hamza-baig-896561248</a></div>
+        </div>
+
+        <div class="hero__cta">
+          <a href="Muhammad_Hamza_Akhtar_Resume.pdf" class="btn btn--primary" download>Download CV <i class="fa-solid fa-download"></i></a>
+          <a href="#contact" class="btn btn--outline btn--outline-light">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__tag"><i class="fa-solid fa-circle"></i> Tech Stack</span>
+        <h2 class="section__title">Tools I <span class="highlight">Work With</span></h2>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-card reveal" data-delay="0"><i class="fa-brands fa-php"></i><h4>PHP</h4><div class="bar"><span data-w="92"></span></div></div>
+        <div class="skill-card reveal" data-delay="60"><i class="fa-brands fa-laravel"></i><h4>Laravel</h4><div class="bar"><span data-w="90"></span></div></div>
+        <div class="skill-card reveal" data-delay="120"><i class="fa-solid fa-database"></i><h4>MySQL</h4><div class="bar"><span data-w="88"></span></div></div>
+        <div class="skill-card reveal" data-delay="180"><i class="fa-solid fa-leaf"></i><h4>MongoDB</h4><div class="bar"><span data-w="75"></span></div></div>
+        <div class="skill-card reveal" data-delay="240"><i class="fa-brands fa-js"></i><h4>JavaScript</h4><div class="bar"><span data-w="82"></span></div></div>
+        <div class="skill-card reveal" data-delay="300"><i class="fa-brands fa-react"></i><h4>React.js</h4><div class="bar"><span data-w="78"></span></div></div>
+        <div class="skill-card reveal" data-delay="360"><i class="fa-brands fa-node-js"></i><h4>NestJS</h4><div class="bar"><span data-w="74"></span></div></div>
+        <div class="skill-card reveal" data-delay="420"><i class="fa-solid fa-plug"></i><h4>REST APIs</h4><div class="bar"><span data-w="90"></span></div></div>
+        <div class="skill-card reveal" data-delay="480"><i class="fa-brands fa-html5"></i><h4>HTML / CSS</h4><div class="bar"><span data-w="85"></span></div></div>
+        <div class="skill-card reveal" data-delay="540"><i class="fa-solid fa-dollar-sign"></i><h4>jQuery</h4><div class="bar"><span data-w="80"></span></div></div>
+        <div class="skill-card reveal" data-delay="600"><i class="fa-brands fa-git-alt"></i><h4>Git / GitHub</h4><div class="bar"><span data-w="85"></span></div></div>
+        <div class="skill-card reveal" data-delay="660"><i class="fa-solid fa-paper-plane"></i><h4>Postman</h4><div class="bar"><span data-w="88"></span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__tag"><i class="fa-solid fa-circle"></i> Experience</span>
+        <h2 class="section__title">My Professional <span class="highlight">Journey</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__meta"><span class="chip">May 2023 – Present</span><span class="tl-item__loc"><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</span></div>
+            <h3>Web Developer</h3>
+            <h4>Olive Digital</h4>
+            <ul>
+              <li>Developed and maintained scalable web applications using PHP and Laravel, applying MVC architecture and design patterns.</li>
+              <li>Built and integrated RESTful APIs connecting backend services with front-end applications across multiple modules.</li>
+              <li>Extended full-stack capabilities with NestJS services and React UIs, contributing to lightofthewords.com.</li>
+              <li>Designed and managed MySQL &amp; MongoDB schemas, optimizing query performance and indexing strategy.</li>
+              <li>Partnered with cross-functional teams to translate business needs into implemented features.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__meta"><span class="chip">Jan 2023 – Apr 2023</span><span class="tl-item__loc"><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</span></div>
+            <h3>PHP / Laravel Intern</h3>
+            <h4>Braniac Creation</h4>
+            <ul>
+              <li>Assisted in developing and maintaining web application features using PHP and Laravel under senior guidance.</li>
+              <li>Supported bug fixing, testing and basic API integration tasks, building a strong backend foundation.</li>
+              <li>Learned database design fundamentals and version control workflows using Git.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item--edu reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__meta"><span class="chip chip--dark">Education</span></div>
+            <h3>Advanced Diploma in Software Engineering (ADSE)</h3>
+            <h4>Aptech Metro Stargate — Completed Feb 2025</h4>
+            <p class="tl-item__sub"><strong>Intermediate</strong> — Ayesha Bawany Boys College (2019 – 2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section__head section__head--row reveal">
+        <div>
+          <span class="section__tag"><i class="fa-solid fa-circle"></i> Portfolio</span>
+          <h2 class="section__title">My Recent <span class="highlight">Projects</span></h2>
+        </div>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="ecommerce">E-commerce</button>
+          <button class="filter" data-filter="booking">Booking</button>
+          <button class="filter" data-filter="portal">Portals</button>
+        </div>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid">
+        <a class="project reveal" data-cat="ecommerce" href="https://free99us.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#ff9f1c;--c2:#ffbf69"><i class="fa-solid fa-store"></i><span class="project__num">01</span></div>
+          <div class="project__body"><span class="project__cat">E-commerce</span><h3>Free99US</h3><p>Multi-vendor e-commerce platform with vendor onboarding and management.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="ecommerce" href="https://houseofgig.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#1a1a1a;--c2:#3a3a3a"><i class="fa-solid fa-champagne-glasses"></i><span class="project__num">02</span></div>
+          <div class="project__body"><span class="project__cat">E-commerce</span><h3>House of Gig</h3><p>Party planning platform connecting hosts with vendors and services.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="ecommerce" href="https://pans-up.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#ff7a00;--c2:#ffa94d"><i class="fa-solid fa-utensils"></i><span class="project__num">03</span></div>
+          <div class="project__body"><span class="project__cat">E-commerce</span><h3>Pans Up</h3><p>Recipe posting and cooking competition platform.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="ecommerce" href="https://mizfitzcoffee.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#4a2c1a;--c2:#8b5a3c"><i class="fa-solid fa-mug-hot"></i><span class="project__num">04</span></div>
+          <div class="project__body"><span class="project__cat">E-commerce</span><h3>Mizfitz Coffee</h3><p>Coffee e-commerce store with product catalog and checkout.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="ecommerce" href="https://arrowpackaging.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#e8590c;--c2:#fd7e14"><i class="fa-solid fa-box-open"></i><span class="project__num">05</span></div>
+          <div class="project__body"><span class="project__cat">E-commerce</span><h3>Arrow Packaging</h3><p>Custom box design/configuration with booking and e-commerce checkout.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="booking" href="https://rideamerica.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#1a1a1a;--c2:#ff9f1c"><i class="fa-solid fa-car-side"></i><span class="project__num">06</span></div>
+          <div class="project__body"><span class="project__cat">Booking</span><h3>Ride America</h3><p>Ride booking platform with scheduling and driver management.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="booking" href="https://services83.demowebsitelinks.com/home-adillo/public/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#f59e0b;--c2:#fcd34d"><i class="fa-solid fa-house-chimney"></i><span class="project__num">07</span></div>
+          <div class="project__body"><span class="project__cat">Booking</span><h3>Home Adillo</h3><p>Service booking platform connecting providers, homeowners and business owners.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="booking" href="https://proactivepeers.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#2b2b2b;--c2:#555"><i class="fa-solid fa-calendar-check"></i><span class="project__num">08</span></div>
+          <div class="project__body"><span class="project__cat">Booking</span><h3>ProActive Peers</h3><p>Appointment booking platform for peer sessions.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="portal" href="https://afccompass.com/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#ff9f1c;--c2:#1a1a1a"><i class="fa-solid fa-heart-pulse"></i><span class="project__num">09</span></div>
+          <div class="project__body"><span class="project__cat">Portal</span><h3>AFC Compass</h3><p>Healthcare portal for patient and provider management.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+        <a class="project reveal" data-cat="portal" href="http://services83.demowebsitelinks.com/ture-help/public/" target="_blank" rel="noopener">
+          <div class="project__thumb" style="--c1:#c2410c;--c2:#fb923c"><i class="fa-solid fa-hand-holding-medical"></i><span class="project__num">10</span></div>
+          <div class="project__body"><span class="project__cat">Portal</span><h3>Ture Help</h3><p>Healthcare portal with secure records and appointment flows.</p><span class="project__link">Visit Site <i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info reveal-left">
+        <span class="section__tag section__tag--light"><i class="fa-solid fa-circle"></i> Contact</span>
+        <h2 class="section__title">Let's Build <span class="highlight">Something Great</span></h2>
+        <p>Have a Laravel project, an API to integrate, or a full-stack product idea? I'm open to full-time roles and freelance work.</p>
+        <div class="contact__cards">
+          <a href="mailto:hamzabaig620@gmail.com" class="contact-card"><i class="fa-solid fa-envelope"></i><div><small>Email</small><strong>hamzabaig620@gmail.com</strong></div></a>
+          <a href="tel:03122969784" class="contact-card"><i class="fa-solid fa-phone"></i><div><small>Phone</small><strong>0312-2969784</strong></div></a>
+          <a href="https://linkedin.com/in/hamza-baig-896561248" target="_blank" rel="noopener" class="contact-card"><i class="fa-brands fa-linkedin-in"></i><div><small>LinkedIn</small><strong>hamza-baig-896561248</strong></div></a>
+          <div class="contact-card"><i class="fa-solid fa-location-dot"></i><div><small>Location</small><strong>Karachi, Pakistan</strong></div></div>
+        </div>
+      </div>
+
+      <form class="contact__form reveal-right" id="contactForm">
+        <div class="form__row">
+          <div class="field"><input type="text" id="name" required /><label for="name">Your Name</label></div>
+          <div class="field"><input type="email" id="email" required /><label for="email">Your Email</label></div>
+        </div>
+        <div class="field"><input type="text" id="subject" required /><label for="subject">Subject</label></div>
+        <div class="field"><textarea id="message" rows="5" required></textarea><label for="message">Your Message</label></div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        <p class="form__note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#home" class="logo logo--light"><span class="logo__icon"><i class="fa-solid fa-code"></i></span>Hamza<em>.</em></a>
+      <nav class="footer__nav">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="socials socials--footer">
+        <a href="https://linkedin.com/in/hamza-baig-896561248" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:hamzabaig620@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>© <span id="year"></span> Muhammad Hamza Akhtar. All rights reserved. <span class="footer__sep">|</span> PHP / Laravel Developer, Karachi, Pakistan.</p></div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
